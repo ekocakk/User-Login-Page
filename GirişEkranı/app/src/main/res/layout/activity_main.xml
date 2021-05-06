@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_centerVertical="true"
+       android:layout_centerInParent="true">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <Button
+               android:id="@+id/fotograf"
+               android:layout_width="180dp"
+               android:layout_height="80dp"
+               android:text="Fotoğraf"
+               android:layout_marginRight="10dp"
+               android:textSize="18sp"
+               android:textColor="@color/white"
+               android:background="@color/sky_blue"/>
+
+           <Button
+               android:id="@+id/video"
+               android:layout_width="180dp"
+               android:layout_height="80dp"
+               android:textSize="18sp"
+               android:textColor="@color/white"
+               android:text="Video"
+               android:background="@color/lawn_green"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp">
+
+           <Button
+               android:id="@+id/ses"
+               android:layout_width="180dp"
+               android:layout_height="80dp"
+               android:text="Ses Kayıt"
+               android:textSize="18sp"
+               android:layout_marginRight="10dp"
+               android:textColor="@color/white"
+               android:background="@color/brown"/>
+
+           <Button
+               android:id="@+id/harita"
+               android:layout_width="180dp"
+               android:layout_height="80dp"
+               android:textSize="18sp"
+               android:textColor="@color/white"
+               android:text="Harita"
+               android:background="@color/cold"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp">
+
+           <Button
+               android:id="@+id/sms"
+               android:layout_width="180dp"
+               android:layout_height="80dp"
+               android:text="SMS Gönder"
+               android:textSize="18sp"
+               android:layout_marginRight="10dp"
+               android:textColor="@color/white"
+               android:background="@color/dim_gray"/>
+
+           <Button
+               android:id="@+id/arama"
+               android:layout_width="180dp"
+               android:layout_height="80dp"
+               android:textSize="18sp"
+               android:textColor="@color/white"
+               android:text="Arama Yap"
+               android:background="@color/light_pink"/>
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+</RelativeLayout>
